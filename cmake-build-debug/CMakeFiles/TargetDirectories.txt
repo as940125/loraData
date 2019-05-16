@@ -1,0 +1,3 @@
+D:/lida/NickC/LoRaServer/LoraHandlByC/cmake-build-debug/CMakeFiles/LoraHandlByC.dir
+D:/lida/NickC/LoRaServer/LoraHandlByC/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/lida/NickC/LoRaServer/LoraHandlByC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

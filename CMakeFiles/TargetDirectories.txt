@@ -1,0 +1,3 @@
+/home/nick/LoraDataHandleByC/loraserverByc/CMakeFiles/edit_cache.dir
+/home/nick/LoraDataHandleByC/loraserverByc/CMakeFiles/rebuild_cache.dir
+/home/nick/LoraDataHandleByC/loraserverByc/CMakeFiles/LoraHandlByC.dir

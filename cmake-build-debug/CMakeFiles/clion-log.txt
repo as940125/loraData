@@ -1,0 +1,70 @@
+"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\lida\NickC\LoRaServer\LoraHandlByC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/lida/NickC/LoRaServer/LoraHandlByC/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 2: "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe" @C:\Users\hjk\AppData\Local\Temp\response-file C:\Users\hjk\AppData\Local\Temp\compiler-file | @response-file=/TP -std=c++11 -O3 -l pthread -l mosquitto -l pq -l pqxx -g /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug
+		@set INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt;
+		@set LIB=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10586.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10586.0\um\x86;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe @<< C:\Users\hjk\AppData\Local\Temp\compiler-file
+	/TP -std=c++11 -O3 -l pthread -l mosquitto -l pq -l pqxx -g /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -std=c++11 -O3 -l pthread -l mosquitto -l pq -l pqxx -g /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	
+	cl: 命令行 warning D9002 :忽略未知选项“-std=c++11”
+	cl: 命令行 warning D9002 :忽略未知选项“-O3”
+	cl: 命令行 warning D9002 :忽略未知选项“-l”
+	cl: 命令行 warning D9002 :忽略未知选项“-l”
+	cl: 命令行 warning D9002 :忽略未知选项“-l”
+	cl: 命令行 warning D9002 :忽略未知选项“-l”
+	cl: 命令行 warning D9002 :忽略未知选项“-g”
+	pthread
+	ENC_CWD=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug
+	ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+	ENC_SRC=pthread
+	ENC_PDB=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug\vc140.pdb
+	ENC_CMD=-TP -MDd -Zi -Ob0 -Od -RTC1 -Bd -EP -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt" -X
+	`C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\c1xx.dll -zm0x00CDADD0 -il C:\Users\hjk\AppData\Local\Temp\_CL_5702dd31 -typedil -f pthread -W 1 -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -Fopthread.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190024215 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -D_DEBUG -D_MT -D_DLL -Zi -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -Bd -E -EP -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt -I C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt -sqm C:\Users\hjk\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+	c1xx: fatal error C1083: 无法打开源文件: “pthread”: No such file or directory
+	mosquitto
+	ENC_CWD=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug
+	ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+	ENC_SRC=mosquitto
+	ENC_PDB=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug\vc140.pdb
+	ENC_CMD=-TP -MDd -Zi -Ob0 -Od -RTC1 -Bd -EP -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt" -X
+	`C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\c1xx.dll -zm0x00CDADD0 -il C:\Users\hjk\AppData\Local\Temp\_CL_751f263d -typedil -f mosquitto -W 1 -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -Fomosquitto.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190024215 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -D_DEBUG -D_MT -D_DLL -Zi -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -Bd -E -EP -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt -I C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt -sqm C:\Users\hjk\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+	c1xx: fatal error C1083: 无法打开源文件: “mosquitto”: No such file or directory
+	pq
+	ENC_CWD=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug
+	ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+	ENC_SRC=pq
+	ENC_PDB=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug\vc140.pdb
+	ENC_CMD=-TP -MDd -Zi -Ob0 -Od -RTC1 -Bd -EP -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt" -X
+	`C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\c1xx.dll -zm0x00CDADD0 -il C:\Users\hjk\AppData\Local\Temp\_CL_6659ccfe -typedil -f pq -W 1 -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -Fopq.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190024215 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -D_DEBUG -D_MT -D_DLL -Zi -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -Bd -E -EP -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt -I C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt -sqm C:\Users\hjk\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+	c1xx: fatal error C1083: 无法打开源文件: “pq”: No such file or directory
+	pqxx
+	ENC_CWD=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug
+	ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+	ENC_SRC=pqxx
+	ENC_PDB=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug\vc140.pdb
+	ENC_CMD=-TP -MDd -Zi -Ob0 -Od -RTC1 -Bd -EP -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt" -X
+	`C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\c1xx.dll -zm0x00CDADD0 -il C:\Users\hjk\AppData\Local\Temp\_CL_d0f679ce -typedil -f pqxx -W 1 -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -Fopqxx.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190024215 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -D_DEBUG -D_MT -D_DLL -Zi -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -Bd -E -EP -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt -I C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt -sqm C:\Users\hjk\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+	c1xx: fatal error C1083: 无法打开源文件: “pqxx”: No such file or directory
+	compiler-file
+	ENC_CWD=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug
+	ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+	ENC_SRC=C:\Users\hjk\AppData\Local\Temp\compiler-file
+	ENC_PDB=D:\lida\NickC\LoRaServer\LoraHandlByC\cmake-build-debug\vc140.pdb
+	ENC_CMD=-TP -MDd -Zi -Ob0 -Od -RTC1 -Bd -EP -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt" -X
+	`C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\c1xx.dll -zm0x00CDADD0 -il C:\Users\hjk\AppData\Local\Temp\_CL_5b2c8bb0 -typedil -f C:\Users\hjk\AppData\Local\Temp\compiler-file -W 1 -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -Focompiler-file.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190024215 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -D_DEBUG -D_MT -D_DLL -Zi -Ot -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -Bd -E -EP -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\ucrt -I C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\shared -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\um -I C:\Program Files (x86)\Windows Kits\10\include\10.0.10586.0\winrt -sqm C:\Users\hjk\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+	
+	
